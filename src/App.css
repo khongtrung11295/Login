@@ -1,0 +1,67 @@
+
+.body {
+  background-image: url("./img_background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+} 
+.header {
+  width: 1440px;
+  height: 900px;
+}
+.boxed {
+  display:grid;
+  grid-template-rows: repeat(4, 1fr);
+  position: absolute;
+  width: 730px;
+  height: 684px;
+  background:white;
+  padding-left: 95px;
+  margin: 108px 165px 108px 545px;
+  
+}
+.boxed-logo {
+  display: block;
+  width: 208px;
+  height: 48px;
+  margin: 60px 427px 0px 0px;
+}
+.boxed-text h1 {
+  display: block;
+  font-weight: 700,bold;
+  font-size: 64px;
+  line-height: 87px;
+  margin-top: -10px;
+}
+.boxed-text span {
+  display: block;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.boxed-input span {
+  display: block;
+  font-size: 13px;
+  line-height: 17px;
+  font-style: normal;
+  margin-top: 70px;
+}
+.form-input {
+  border: 1px solid#eee;
+  border-radius: 5px;
+  width: 80%;
+  height: 50px;
+  padding: 0 20px;
+  margin-top: 20px;
+  color: rgb(145, 147, 151);
+}
+.btn-1 {
+  width: 255px;
+  height: 60px;
+  border-radius: 30px;
+  background: #33adff;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 380px;
+}
